@@ -17,5 +17,6 @@ function tick(){
 		html.value ='';
 		css.value ='';
 		js.value ='';
+		showPreview();
 	})
 }
