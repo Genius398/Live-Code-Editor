@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Code Editor || Made with ♥ by @ECodersOfficial On Twitter</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="script.js"></script>
+</head>
+<body onload="showPreview();">		
+	  <div class="code-area">
+  <textarea id="htmlCode" placeholder="HTML Code" 
+            oninput="showPreview()">
+            	&lt;p&gt;&lt;p&gt;
+            </textarea>
+  <textarea id="cssCode" placeholder="CSS Code" 
+            oninput="showPreview()">p{font-family:verdana;text-decoration:none;display:block;}
+</textarea>        
+  <textarea id="jsCode" placeholder="JavaScript Code" 
+            oninput="showPreview()">document.querySelector("p").innerHTML ="Hello!<br>Welcome to Aasheesh Agarwal's Code Editor!<br>This will Works Even you're offline but once this page is loaded!!<br>Start Coding now by Typing codes in the 3 boxes!<br>Made with Love by Aasheesh Agarwal!<br>https://www.youtube.com/channel/UCfTTIgSYOwY3gmCI7YhisEA<br>https://scratch.mit.edu/users/NorthenSuperCoders/<br>https://twitter.com/ECodersOfficial";</textarea>
+            <button id="clear">Clear</button>
+</div>
+<div class="preview-area">
+  <iframe id="preview-window"></iframe>
+</div>
+</body>
+</html>
