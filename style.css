@@ -33,4 +33,7 @@ body {
   width: 100%;
   font-size:25px; 
   font-weight:bold;
+  border-style: dotted;
+  background-color:#49ad37;
+  color:#ffffff;
 }
