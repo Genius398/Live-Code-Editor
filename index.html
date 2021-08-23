@@ -1,27 +1,33 @@
-
 <!DOCTYPE html>
 <html>
-<head>
-	<title>Code Editor || Made with ♥ by Educational Websites on GitHub</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<script type="text/javascript" src="script.js"></script>
-</head>
-<body onload="showPreview();">		
-	  <div class="code-area">
-  <textarea id="htmlCode" placeholder="HTML Code" 
-            oninput="showPreview()">
+  <head>
+    <title>Code Editor || Made with ♥ by Educational Websites on GitHub</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script type="text/javascript" src="script.js"></script>
+  </head>
+  <body onload="showPreview();">
+    <div class="code-area">
+      <textarea id="htmlCode" placeholder="HTML Code" oninput="showPreview()">
             	&lt;p&gt;&lt;p&gt;
-            </textarea>
-  <textarea id="cssCode" placeholder="CSS Code" 
-            oninput="showPreview()">p{font-family:verdana;text-decoration:none;display:block;}
-</textarea>        
-  <textarea id="jsCode" placeholder="JavaScript Code" 
-            oninput="showPreview()">document.querySelector("p").innerHTML ="Hello!<br>Welcome to Our Live Code Editor!<br>This will Works Even you're offline but once this page is loaded!!<br>Start Coding now by Typing codes in the 3 boxes!<br>Made with Love by E - Coders, @Genius398 & @somePythonProgrammer"</textarea>
-            <button id="clear">Clear</button>
-</div>
-<div class="preview-area">
-  <iframe id="preview-window" style="height: 80%;"></iframe>
-  <iframe id = 'console' style="height: 19.5%;background-color: darkgray;"></iframe>
-</div>
-</body>
+            </textarea
+      >
+      <textarea id="cssCode" placeholder="CSS Code" oninput="showPreview()">
+p{font-family:verdana;text-decoration:none;display:block;}
+</textarea
+      >
+      <textarea
+        id="jsCode"
+        placeholder="JavaScript Code"
+        oninput="showPreview()"
+      >
+document.querySelector("p").innerHTML ="Hello!<br>Welcome to Our Live Code Editor!<br>This will Works Even you're offline but once this page is loaded!!<br>Start Coding now by Typing codes in the 3 boxes!<br>Made with Love by E - Coders, @Genius398 & @somePythonProgrammer"</textarea
+      >
+      <button id="clear">Clear</button>
+    </div>
+    <div class="preview-area">
+      <iframe id="preview-window" style="height: 80%"></iframe>
+      <iframe id="console" style="height: 19.5%; background-color: darkgray">
+      </iframe>
+    </div>
+  </body>
 </html>
