@@ -36,4 +36,9 @@ body {
   border-style: dotted;
   background-color:#49ad37;
   color:#ffffff;
+  opacity: 90%;
+}
+
+#clear:hover{
+    opacity: 100%;
 }
