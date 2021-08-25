@@ -47,6 +47,11 @@ body {
 #clear:hover{
     opacity: 100%;
 }
+
+#load:hover{
+    opacity: 100%;
+}
+
 .txt{
   margin:2px;
 }
