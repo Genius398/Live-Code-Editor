@@ -1,26 +1,38 @@
-
 <!DOCTYPE html>
 <html>
+
 <head>
-	<title>Code Editor || Made with ♥ by Educational Websites on GitHub</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<script type="text/javascript" src="script.js"></script>
+    <title>Code Editor || Made with ♥ by Educational Websites on GitHub</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script type="text/javascript" src="script.js"></script>
 </head>
-<body onload="showPreview();">		
-	  <div class="code-area">
-  <textarea id="htmlCode" placeholder="HTML Code" 
-            oninput="showPreview()">
+
+<body onload="showPreview();">
+    <div class="code-area">
+        <textarea id="htmlCode" placeholder="HTML Code" oninput="showPreview()">
             	&lt;p&gt;&lt;p&gt;
             </textarea>
-  <textarea id="cssCode" placeholder="CSS Code" 
-            oninput="showPreview()">p{font-family:verdana;text-decoration:none;display:block;}
-</textarea>        
-  <textarea id="jsCode" placeholder="JavaScript Code" 
+        <textarea id="cssCode" placeholder="CSS Code" oninput="showPreview()">p{font-family:verdana;text-decoration:none;display:block;}
+</textarea>
+        <textarea id="jsCode" placeholder="JavaScript Code"
             oninput="showPreview()">document.querySelector("p").innerHTML ="Hello!<br>Welcome to Our Live Code Editor!<br>This will Works Even you're offline but once this page is loaded!!<br>Start Coding now by Typing codes in the 3 boxes!<br>Made with Love by E - Coders & @Genius398"</textarea>
-		  <div id="outer"><button id="clear" class="inner"><div class="txt">Clear</div></button>  <button id="load" onclick="loadSampleCode();" class="inner"><div class="txt">Load Sample code</div></button></div>
-</div>
-<div class="preview-area">
-  <iframe id="preview-window"></iframe>
-</div>
+
+
+
+
+
+
+
+        <div id="outer"><button id="clear" class="inner">
+                <div class="txt">Clear</div>
+            </button> <button id="load" onclick="loadSampleCode();" class="inner">
+                <div class="txt">Load Sample code</div>
+            </button>
+        </div>
+    </div>
+    <div class="preview-area">
+        <iframe id="preview-window"></iframe>
+    </div>
 </body>
+
 </html>
