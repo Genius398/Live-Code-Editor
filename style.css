@@ -29,7 +29,7 @@ body {
   height: 100%;
   border: none;
 }
-.clear_buttons{
+#clear, #load{
   width: 45%;
   font-size:25px; 
   font-weight:bold;
@@ -40,7 +40,11 @@ body {
   transition: 0.9s;
 }
 
-.clear_buttons:hover{
+#load{
+  margin-left:5%;
+}
+
+#clear:hover{
     opacity: 100%;
 }
 .txt{
