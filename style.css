@@ -43,13 +43,7 @@ body {
 #load{
   margin-left:5%;
   width: 50%;
-  font-size:25px; 
-  font-weight:bold;
-  border-style: dotted;
   background-color:#0055ff;
-  color:#ffffff;
-  opacity: 90%;
-  transition: 0.9s;
 }
 
 #clear:hover{
