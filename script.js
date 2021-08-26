@@ -66,11 +66,7 @@ function updateConsole() {
   frame.close();
 }
     ` +
-    document.getElementById("jsCode").value + `
-    loglist = undefined
-    delete(loglist)
-    `
-    +
+    document.getElementById("jsCode").value + 
     "</script>";
   var frame = document.getElementById("preview-window").contentWindow.document;
   frame.open();
