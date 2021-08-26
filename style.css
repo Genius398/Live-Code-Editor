@@ -37,7 +37,7 @@ body {
 
 #clear,
 #load {
-    width: 45%;
+    width: 44%;
     font-size: 25px;
     font-weight: bold;
     border-style: dotted;
@@ -49,7 +49,7 @@ body {
 
 #load {
     margin-left: 64px;
-    width: 45%;
+    width: 44%;
     background-color: #0055ff;
 }
 
