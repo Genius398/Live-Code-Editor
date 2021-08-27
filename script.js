@@ -1,4 +1,5 @@
 function showPreview() {
+	console.clear()
   frame = document.getElementById("console").contentWindow.document;
     frame.open();
   frame.write('');
@@ -64,6 +65,10 @@ function updateConsole() {
   frame.write(string);
   window.parent.document.getElementById("console").contentWindow.scrollTo(0,frame.body.scrollHeight);
   frame.close();
+}
+window.onerror = function (message, url, lineNumber) {
+	  loglist.push({ data: message, type: "error", sender: "parent" });
+  updateConsole();
 }
     ` +
     document.getElementById("jsCode").value + `
