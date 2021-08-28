@@ -13,19 +13,19 @@ function showPreview() {
     loglist = [];
 console.log = function (message) {
   loglist.push({ data: message, type: "log", sender: "parent" });
-  updateConsole();
+  
 };
 console.error = function (message) {
   loglist.push({ data: message, type: "error", sender: "parent" });
-  updateConsole();
+  
 };
 console.warn = function (message) {
   loglist.push({ data: message, type: "warning", sender: "parent" });
-  updateConsole();
+  
 };
 console.info = function (message) {
   loglist.push({ data: message, type: "information", sender: "parent" });
-  updateConsole();
+  
 };
 function updateConsole() {
   let tempLog = [];
@@ -68,7 +68,7 @@ function updateConsole() {
 }
 window.onerror = function (message, url, lineNumber) {
 	  loglist.push({ data: message, type: "error", sender: "parent" });
-  updateConsole();
+  
 }
     ` +
     document.getElementById("jsCode").value + `
@@ -93,7 +93,6 @@ function tick() {
     html.value = "";
     css.value = "";
     js.value = "";
-    showPreview();
   });
 }
 function loadSampleCode() {
@@ -105,8 +104,9 @@ function loadSampleCode() {
     '<html> <head> <title>Welcome to the website!</title> </head> <body><h1>Write your header here</h1> <h2>Write your subtitle/website content here.</h2> </body> </html>';
 
 	css.value = 'h1{font-size:50px;}';
+}
 
-	showPreview();
-
-
+function runCode(){
+  showPreview(); 
+  updateConsole();
 }

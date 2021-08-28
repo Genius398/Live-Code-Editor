@@ -16,20 +16,25 @@
 </textarea>
         <textarea id="jsCode" placeholder="JavaScript Code"
             oninput="showPreview()">document.querySelector("p").innerHTML ="Hello!<br>Welcome to Our Live Code Editor!<br>This will Works Even you're offline but once this page is loaded!!<br>Start Coding now by Typing codes in the 3 boxes!<br>Made with Love by E - Coders & @Genius398"</textarea>
-        <div id="outer"><button id="clear" class="inner">
+        
+            <div id="outer">
+            <button id="clear" class="inner">
                 <div class="txt">Clear</div>
+            
+            </button> <button id="run" onclick="runCode();" class="inner">
+                <div class="txt">Run</div>
+            </button>
+            
             </button> <button id="load" onclick="loadSampleCode();" class="inner">
                 <div class="txt">Sample code</div>
             </button>
-        </div>
+        
+            </div>
     </div>
     <div class="preview-area">
         <iframe id="preview-window" style="height:75%"></iframe>
         Console:
-        <iframe
-        id="console"
-        style="height: 22.2%; background-color: dimgray"
-      ></iframe>
+        <iframe id="console" style="height: 22.2%; background-color: dimgray"></iframe>
     </div>
 </body>
 

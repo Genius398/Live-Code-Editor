@@ -37,20 +37,26 @@ body {
 }
 
 #clear,
-#load {
-    width: 44%;
+#load, #run {
+    width: 35%;
     font-size: 25px;
     font-weight: bold;
     border-style: dotted;
     background-color: #49ad37;
     color: #ffffff;
-    opacity: 90%;
+    opacity: 70%;
     transition: 0.9s;
 }
 
 #load {
     margin-left: 64px;
-    width: 44%;
+    width: 35%;
+    background-color: #49ad37;
+}
+
+#run {
+    margin-left: 64px;
+    width:fit-content !important; 
     background-color: #0055ff;
 }
 
@@ -73,4 +79,8 @@ body {
 
 .inner {
     display: inline-block;
+}
+
+#run:hover {
+    opacity: 100%;
 }
