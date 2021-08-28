@@ -68,7 +68,7 @@ function updateConsole() {
 }
 window.onerror = function (message, url, lineNumber) {
 	  loglist.push({ data: message, type: "error", sender: "parent" });
-  updateConsole();
+  updateConsole(); 
 }
     ` +
     document.getElementById("jsCode").value + `
