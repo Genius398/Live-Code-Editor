@@ -102,12 +102,12 @@ function loadSampleCode() {
 	js = document.getElementById("jsCode");
 
     html.value = 
-    '<html> <head> <title>Welcome to the website!</title> </head> <body><h1>Write your header here</h1> <h2>Write your subtitle/website content here.</h2> </body> </html>';
+    '<html> <head> <title>Welcome to the website!</title> </head> <body onload="function()"><h1>Write your header here</h1> <h2 id="blue">Write your subtitle/website content here.</h2> </body> </html>';
 
 	css.value = 'h1{font-size:50px;}';
 
 
-
+js.value = 'document.getElementById("blue").style.display = "blue";'
 
 }
 
