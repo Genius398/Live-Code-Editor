@@ -39,7 +39,7 @@ body {
 
 #clear,
 #load, #run {
-    width: 16.6666667%;
+    width: 35%;
     font-size: 25px;
     font-weight: bold;
     border-style: dotted;
@@ -51,13 +51,13 @@ body {
 
 #load {
     margin-left: 64px;
-    width: 16.6666667%;
+    width: 35%;
     background-color: #49ad37;
 }
 
 #run {
     margin-left: 64px;
-    width:16.6666667%; 
+    width:35%; 
     background-color: #0055ff;
 }
 
