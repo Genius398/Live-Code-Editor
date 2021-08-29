@@ -56,7 +56,7 @@ body {
 
 #run {
     margin-left: 64px;
-    width:35%; 
+    width:fit-content; 
     background-color: #0055ff;
 }
 
