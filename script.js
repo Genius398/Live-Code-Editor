@@ -8,7 +8,8 @@ function showPreview() {
   var cssCode =
     "<style>" + document.getElementById("cssCode").value + "</style>";
   var jsCode =
-    '<script type="text/javascript">' + document.getElementById("jsCode").value + '</script>';   
+    '<script type="text/javascript">' +
+    `
     loglist = [];
 console.log = function (message) {
   loglist.push({ data: message, type: "log", sender: "parent" });
