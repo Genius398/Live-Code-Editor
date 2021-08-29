@@ -8,6 +8,7 @@ body {
     height: 100vh;
     display: flex;
     background-color:linear-gradient(20,45,78,1);
+    overflow: hidden;
 }
 
 .code-area {
