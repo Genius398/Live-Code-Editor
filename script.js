@@ -107,7 +107,6 @@ function loadSampleCode() {
 	css.value = 'h1{font-size:50px;}';
 
 
-js.value = 'document.getElementById("blue").style.display = "blue";'
 
 }
 
