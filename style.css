@@ -85,3 +85,6 @@ body {
 #run:hover {
     opacity: 100%;
 }
+#console{
+    font-family:Verdana;
+}
