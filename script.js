@@ -96,10 +96,10 @@ function loadSampleCode() {
 	js = document.getElementById("jsCode");
 
     html.value = 
-    '<html> <head> <title>Welcome to the website!</title> </head> <body><h1>Write your header here</h1> <h2>Write your subtitle/website content here.</h2> </body> </html>';
+    '<html> <head> <title>Welcome to the website!</title> </head> <body><h1>Write your header here</h1> <h2>Write your subtitle/website content here.</h2><p>Hello World</p><button onclick="my();">Click please :DD</button> </body> </html>';
 
-	css.value = 'h1{font-size:50px;}';
-
+	css.value = 'body{font-family:verdana;}h1{font-size:50px;}';
+	js.value = 'function my(){alert("Hello World!!");}';
 	showPreview();
 
 
