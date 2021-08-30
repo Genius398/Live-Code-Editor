@@ -107,3 +107,10 @@ function loadSampleCode() {
 function runCode(){
 	showPreview();
 }
+
+function save{
+html = document.getElementById("htmlCode");
+	css = document.getElementById("cssCode");
+	js = document.getElementById("jsCode");
+	localStorage.setItem("Code", html + css + js);
+}
