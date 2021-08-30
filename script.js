@@ -112,5 +112,13 @@ function save{
 html = document.getElementById("htmlCode");
 	css = document.getElementById("cssCode");
 	js = document.getElementById("jsCode");
-	localStorage.setItem("Code", html + css + js);
+	localStorage.setItem("Html", html);
+	localStorage.setItem("Css", css);
+	localStorage.setItem("Js", js);
+}
+
+function get(){
+ document.getElementById("htmlCode").innerHTML = localStorage.getItem("Html");
+ document.getElementById("cssCode").innerHTML = localStorage.getItem("Css");
+ document.getElementById("jsCode").innerHTML = localStorage.getItem("Js");
 }
