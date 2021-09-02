@@ -37,7 +37,7 @@ body {
 }
 
 #clear,
-#load, #run {
+#load{
     width: 35%;
     font-size: 25px;
     font-weight: bold;
@@ -54,11 +54,7 @@ body {
     background-color: #49ad37;
 }
 
-#run {
-    margin-left: 64px;
-    width:fit-content; 
-    background-color: #0055ff;
-}
+
 
 #clear:hover {
     opacity: 100%;
