@@ -104,6 +104,3 @@ function loadSampleCode() {
 
 
 }
-function runCode(){
-	showPreview();
-}
