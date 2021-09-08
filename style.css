@@ -14,7 +14,11 @@ body {
     display: flex;
     flex-direction: column;
     width: 50%;
-    border-right: 1px solid #555;
+    border-right: 1px solid #555;   
+    border-left: 1px solid transparent;
+    border-top: 1px solid transparent;
+    border-bottom: 1px solid transparent;
+    border-radius:25px;
 }
 
 .code-area textarea {
@@ -28,6 +32,8 @@ body {
 
 .preview-area {
     width: 50%;
+    border: 1px solid transparent;
+    border-radius:25px;
 }
 
 .preview-area iframe {
@@ -46,12 +52,18 @@ body {
     color: #ffffff;
     opacity: 70%;
     transition: 0.9s;
+    border-left: 1px solid transparent;
+    border-top: 1px solid transparent;
+    border-bottom: 1px solid transparent;
+    border-radius:25px;
 }
 
 #load {
     margin-left: 64px;
     width: 35%;
     background-color: #49ad37;
+    border: 1px solid transparent;
+    border-radius:25px;
 }
 
 
@@ -83,3 +95,4 @@ body {
 #console{
     font-family:Verdana;
 }
+
